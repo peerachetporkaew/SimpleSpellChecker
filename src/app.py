@@ -1,10 +1,10 @@
-# curl -X POST "http://portal.tensorguru.com:8000/translate/" -H "Content-Type: application/json" -d '{"text": "Hello World", "apikey" : "LST1234", "dest" : "th"}'
+# curl -X POST "http://localhost:8081/api/spellcheck" -H "Content-Type: application/json" -d '{"text": "สวัดดีคับ ม่ายรู้ถูกกฏมั้ย", "apikey" : "LST-SPGDKBIELDKFKeoDE"}'
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from os import environ
-from main_correct import LSTSpellChecker
+from lstchecker import LSTSpellChecker
 
 checker = LSTSpellChecker()
 
