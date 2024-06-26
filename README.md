@@ -3,6 +3,20 @@ Thai customizable spell-checking library in Python.
 
 # How to use
 
+## Requirements
+
+```
+fastapi
+syllacut==0.1.4 # pip install syllacut-0.1.4-py3-none-any.whl
+```
+
+## Start the service
+
+```
+cd src
+./run.sh
+```
+
 ```python
 
 from lstchecker import LSTSpellChecker
