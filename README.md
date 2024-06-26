@@ -1,5 +1,5 @@
 # SimpleSpellChecker
-Thai customizable spell-checking library in Python. 
+A customizable spell-checking library for Thai text. 
 
 # How to use
 
